@@ -1,23 +1,39 @@
+
+body {
+  background: linear-gradient(225deg,  #d83131, #ffdaab, #ddffab, #abe4ff, #d9abff);
+  background-size: 300% 300%;
+  height: 100vh;
+  margin: 0;
+  -webkit-animation: Rainbow 25s ease infinite;
+  -moz-animation: Rainbow 25s ease infinite;
+  animation: Rainbow 25s ease infinite;
+}
+
+@-webkit-keyframes Rainbow {
+  0% {
+    background-position: 94% 0%; }
+  50% {
+    background-position: 7% 100%; }
+  100% {
+    background-position: 94% 0%; } }
 .row{   
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    background-color:blue;
     color:white;
     font-size:20px;
 }
 .headshot{
     width:20%;
-   
 }
 .mid{
-    font-family:serif;
-    background-color:white;
-    color:black;
-    align-items:center;
-    font-size:50px;
-    margin-top:5px;
-    margin-bottom:5px;
+    background: linear-gradient(225deg, #d83131, #fcb964, #ddffab, #abe4ff, #d9abff);
+  background-size: 300% 300%;
+  height: 55vh;
+  margin: 0;
+  -webkit-animation: Rainbow 25s ease infinite;
+  -moz-animation: Rainbow 25s ease infinite;
+  animation: Rainbow 25s ease infinite;
     
 }
 .aboutme{
@@ -25,10 +41,11 @@
     display:flex;
     justify-content:center;
 }
-#ny {
-    
-}
 .header , .contact{
  font-family:lobster;   
+ font-size:30px;
 }
-
+p {
+ color:black;   
+    
+}
